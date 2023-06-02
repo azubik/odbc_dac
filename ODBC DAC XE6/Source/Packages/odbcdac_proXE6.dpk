@@ -1,0 +1,57 @@
+package odbcdac_proXE6;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'ODBC DAC Pro (Softvector.com)'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  vcldb;
+
+contains
+  ODBCConnection in '..\ODBCConnection.pas',
+  ODBCConsts in '..\ODBCConsts.pas',
+  ODBCCustomDataset in '..\ODBCCustomDataset.pas',
+  ODBCException in '..\ODBCException.pas',
+  ODBCIntf in '..\ODBCIntf.pas',
+  ODBCQuery in '..\ODBCQuery.pas',
+  ODBCStmt in '..\ODBCStmt.pas',
+  ODBCStoredProc in '..\ODBCStoredProc.pas',
+  ODBCTable in '..\ODBCTable.pas',
+  ODBCUpdateSQL in '..\ODBCUpdateSQL.pas',
+  ODBCCatalogFunc in '..\ODBCCatalogFunc.pas',
+  ODBCUtils in '..\ODBCUtils.pas',
+  odbcsql in '..\ODBC\odbcsql.pas',
+  odbcsqlext in '..\ODBC\odbcsqlext.pas',
+  odbcsqltypes in '..\ODBC\odbcsqltypes.pas',
+  odbcsqlucode in '..\ODBC\odbcsqlucode.pas',
+  ODBCQueryEx in '..\ODBCQueryEx.pas',
+  ODBCCatalogFuncEx in '..\ODBCCatalogFuncEx.pas',
+  ODBCDrvSpec in '..\ODBCDrvSpec.pas';
+
+end.
