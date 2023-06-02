@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="..\..\Bin\odbcdac_pro50c.bpl"/>
+    <OBJFILES value="..\..\Lib\ODBCCatalogFunc.obj 
+      ..\..\Lib\ODBCConnection.obj ..\..\Lib\ODBCConsts.obj 
+      ..\..\Lib\ODBCCustomDataset.obj ..\..\Lib\ODBCDrvSpec.obj 
+      ..\..\Lib\ODBCException.obj ..\..\Lib\ODBCIntf.obj ..\..\Lib\ODBCQuery.obj 
+      ..\..\Lib\ODBCStmt.obj ..\..\Lib\ODBCStoredProc.obj 
+      ..\..\Lib\ODBCTable.obj ..\..\Lib\ODBCUpdateSQL.obj ..\..\Lib\ODBCUtils.obj 
+      ..\..\Lib\ODBCQueryEx.obj ..\..\Lib\ODBCCatalogFuncEx.obj 
+      ..\..\Lib\odbcsql.obj ..\..\Lib\odbcsqlext.obj ..\..\Lib\odbcsqltypes.obj 
+      ..\..\Lib\odbcsqlucode.obj ..\..\Lib\odbcdac_pro50c.obj"/>
+    <RESFILES value="odbcdac_pro50c.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="Vcl50.lib Vcldb50.lib"/>
+    <PACKAGES value="vcl50.bpi vcldb50.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;..;..\ODBC"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="tlink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="odbcdac_pro50c.cpp"/>
+    <INCLUDEPATH value="..\;..;..\ODBC;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\;..;..\..\Lib;..\ODBC;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\. -I.. -I..\ODBC -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix 
+      cpp -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl50.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tWM"/>
+    <PFLAGS value="-N2..\..\Lib -N0..\..\Lib -$YD -$W -$O- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-l&quot;..\..\Lib\&quot; -I..\..\Lib 
+      -D&quot;ODBC DAC Pro  (Softvector.com)&quot; -aa -Tpp -Gpr -x -Gn -Gl -Gi -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=4
+Release=4
+Build=58
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=Softvector.com
+FileDescription=ODBC Data Access Components
+FileVersion=2.1.0.98
+InternalName=ODBC DAC Pro
+LegalCopyright=Copyright (c) 2003-2009 Softvector.com
+LegalTrademarks=
+OriginalFilename=ODBC DAC Pro
+ProductName=ODBC DAC Pro
+ProductVersion=2.1.0.98
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=..\;..;..\ODBC;$(BCB)\include;$(BCB)\include\vcl
+Item1=..\;..\ODBC;..;$(BCB)\include;$(BCB)\include\vcl
+Item2=..\ODBC;..\;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=6
+Item0=..\;..;..\..\Lib;..\ODBC;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\;..\..\Lib;..;..\ODBC;$(BCB)\lib\obj;$(BCB)\lib
+Item2=..\..\Lib;..\;..;..\ODBC;$(BCB)\lib\obj;$(BCB)\lib
+Item3=..\;..;..\ODBC;$(BCB)\lib\obj;$(BCB)\lib
+Item4=..\;..\ODBC;..;$(BCB)\lib\obj;$(BCB)\lib
+Item5=..\ODBC;..\;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=..\..\Lib
+
+[HistoryLists\hlFinalOutputDir]
+Count=2
+Item0=..\..\Bin\
+Item1=..\..\Bin
+
+[HistoryLists\hIBPIOutputDir]
+Count=5
+Item0=..\..\Lib
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

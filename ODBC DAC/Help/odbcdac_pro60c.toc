@@ -1,0 +1,77 @@
+:Base odbcdac_pro50c.hlp
+:Title ODBC DAC Pro (Softvector.com)
+
+1 ODBC DAC Pro
+2 What is ODBC DAC=What_is_ODAC
+2 Alphabetical classes list
+3 EODBCError=EODBCError
+3 TDiagRec=TDiagRec
+3 TODBCBlobStream=TODBCBlobStream
+3 TODBCColumn=TODBCColumn
+3 TODBCColumns=TODBCColumns
+3 TODBCConnection=TODBCConnection
+3 TODBCCursor=TODBCCursor
+3 TODBCCustomDataSet=TODBCCustomDataSet
+3 TODBCCustomDataSetEx=TODBCCustomDataSetEx
+3 TODBCDataLink=TODBCDataLink
+3 TODBCDataSet=TODBCDataSet
+3 TODBCDataSetUpdateObject=TODBCDataSetUpdateObject
+3 TODBCEnvironment=TODBCEnvironment
+3 TODBCParam=TODBCParam
+3 TODBCParams=TODBCParams
+3 TODBCQuery=TODBCQuery
+3 TODBCSQLDA=TODBCSQLDA
+3 TODBCSQLVAR=TODBCSQLVAR
+3 TODBCStatement=TODBCStatement
+3 TODBCStoredProc=TODBCStoredProc
+3 TODBCTable=TODBCTable
+3 TODBCUpdateSQL=TODBCUpdateSQL
+2 Alphabetical types list
+3 TDataSourceType=TDataSourceType
+3 TDriverComplition=TDriverComplition
+3 TODBCTableType=TODBCTableType
+2 Classes and procedures by units
+3 ODBCConnection
+4 Unit description=ODBCConnection
+4 TODBCConnection=TODBCConnection
+4 TODBCEnvironment=TODBCEnvironment
+4 Types
+5 TDataSourceType=TDataSourceType
+5 TDriverComplition=TDriverComplition
+5 TODBCTableType=TODBCTableType
+4 Variables
+5 ODBCEnvironment=ODBCEnvironment
+3 ODBCCustomDataset
+4 Unit description=ODBCCustomDataset
+4 TODBCBlobStream=TODBCBlobStream
+4 TODBCCustomDataSet=TODBCCustomDataSet
+4 TODBCCustomDataSetEx=TODBCCustomDataSetEx
+4 TODBCDataLink=TODBCDataLink
+4 TODBCDataSet=TODBCDataSet
+4 TODBCDataSetUpdateObject=TODBCDataSetUpdateObject
+3 ODBCException
+4 Unit description=ODBCException
+4 EODBCError=EODBCError
+4 TDiagRec=TDiagRec
+3 ODBCQuery
+4 Unit description=ODBCQuery
+4 TODBCQuery=TODBCQuery
+3 ODBCStmt
+4 Unit description=ODBCStmt
+4 TODBCColumn=TODBCColumn
+4 TODBCColumns=TODBCColumns
+4 TODBCCursor=TODBCCursor
+4 TODBCParam=TODBCParam
+4 TODBCParams=TODBCParams
+4 TODBCSQLDA=TODBCSQLDA
+4 TODBCSQLVAR=TODBCSQLVAR
+4 TODBCStatement=TODBCStatement
+3 ODBCStoredProc
+4 Unit description=ODBCStoredProc
+4 TODBCStoredProc=TODBCStoredProc
+3 ODBCTable
+4 Unit description=ODBCTable
+4 TODBCTable=TODBCTable
+3 ODBCUpdateSQL
+4 Unit description=ODBCUpdateSQL
+4 TODBCUpdateSQL=TODBCUpdateSQL

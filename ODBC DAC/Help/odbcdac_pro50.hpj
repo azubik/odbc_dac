@@ -1,0 +1,15 @@
+; This file is maintained by HCW. Do not modify this file directly.
+
+[OPTIONS]
+LCID=0x409 0x0 0x0 ; English (United States)
+REPORT=Yes
+CNT=ODBCDAC_pro50.cnt
+BMROOT=..\IMAGES
+HLP=ODBCDAC_pro50.hlp
+
+[FILES]
+ODBCDAC_pro50.rtf
+
+[WINDOWS]
+main="ODBC DAC Pro (Softvector.com)",,27904,,,f2
+pme="Properties,Methods,Events",(18,0,300,800),4,(r14876671),(r12632256)
