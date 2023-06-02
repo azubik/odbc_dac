@@ -1,8 +1,7 @@
 # ODBC DAC
 
 
-ODBC DAC (ODBC Data Access Components) for Object Pascal (Delphi)
-
+ODBC DAC (ODBC Data Access Components) is a component set for Delphi/C++Builder to access any database via ODBC interface directly, skipping the BDE or ADO.
 
 Supported versions: 
 
