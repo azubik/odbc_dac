@@ -25,7 +25,7 @@
 			<DCC_SymbolReferenceInfo>1</DCC_SymbolReferenceInfo>
 			<DCC_ImageBase>00400000</DCC_ImageBase>
 			<DCC_Platform>x86</DCC_Platform>
-			<DCC_Description>ODBC DAC (Softvector.com)</DCC_Description>
+			<DCC_Description>ODBC DAC</DCC_Description>
 			<DCC_DependencyCheckOutputName>C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl\dclodbcdac2009.bpl</DCC_DependencyCheckOutputName>
 			<GenPackage>true</GenPackage>
 			<DCC_S>false</DCC_S>
@@ -101,11 +101,11 @@
 						<VersionInfo Name="CodePage">1252</VersionInfo>
 					</VersionInfo>
 					<VersionInfoKeys>
-						<VersionInfoKeys Name="CompanyName">Softvector.com</VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
 						<VersionInfoKeys Name="FileDescription"/>
 						<VersionInfoKeys Name="FileVersion">3.0.0.8</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName">ODBC DAC</VersionInfoKeys>
-						<VersionInfoKeys Name="LegalCopyright">Copyright (c) 2003-2009 Softvector.com</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright">GNU GPL v.3</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalTrademarks"/>
 						<VersionInfoKeys Name="OriginalFilename"/>
 						<VersionInfoKeys Name="ProductName">ODBC DAC</VersionInfoKeys>

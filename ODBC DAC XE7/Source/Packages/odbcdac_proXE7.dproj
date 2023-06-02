@@ -51,7 +51,7 @@
         <RuntimeOnlyPackage>true</RuntimeOnlyPackage>
         <SanitizedProjectName>odbcdac_proXE7</SanitizedProjectName>
         <DCC_S>false</DCC_S>
-        <DCC_Description>ODBC DAC Pro (Softvector.com)</DCC_Description>
+        <DCC_Description>ODBC DAC Pro</DCC_Description>
         <GenDll>true</GenDll>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
@@ -82,7 +82,6 @@
         </DelphiCompile>
         <DCCReference Include="vcl.dcp"/>
         <DCCReference Include="vcldb.dcp"/>
-        <DCCReference Include="..\svODBC.pas"/>
         <DCCReference Include="..\ODBCConnection.pas"/>
         <DCCReference Include="..\ODBCConsts.pas"/>
         <DCCReference Include="..\ODBCCustomDataset.pas"/>

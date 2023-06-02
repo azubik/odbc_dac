@@ -53,7 +53,7 @@ IDLCFLAGS = -I..\. -I.. -I..\ODBC -I$(BCB)\include -I$(BCB)\include\vcl -src_suf
 PFLAGS = -N2..\..\Lib -N0..\..\Lib -$YD -$W -$O- -v -JPHNE -M
 RFLAGS = 
 AFLAGS = /mx /w2 /zd
-LFLAGS = -l"..\..\Lib\" -I..\..\Lib -D"ODBC DAC Pro  (Softvector.com)" -aa -Tpp \
+LFLAGS = -l"..\..\Lib\" -I..\..\Lib -D"ODBC DAC Pro" -aa -Tpp \
     -Gpr -x -Gn -Gl -Gi -v
 # ---------------------------------------------------------------------------
 ALLOBJ = c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)

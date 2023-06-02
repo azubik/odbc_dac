@@ -37,7 +37,7 @@ RemoteSymbols=0
 MinStackSize=16384
 MaxStackSize=1048576
 ImageBase=4194304
-ExeDescription=ODBC DAC Pro  (Softvector.com)
+ExeDescription=ODBC DAC Pro
 [Directories]
 OutputDir=
 UnitOutputDir=..\..\Lib
@@ -70,11 +70,11 @@ DLL=0
 Locale=1033
 CodePage=1252
 [Version Info Keys]
-CompanyName=Softvector.com
+CompanyName=
 FileDescription=
 FileVersion=2.1.0.98
 InternalName=ODBC DAC Pro
-LegalCopyright=Copyright (c) 2003-2009 Softvector.com
+LegalCopyright=GNU GPL v.3
 LegalTrademarks=
 OriginalFilename=
 ProductName=ODBC DAC Pro

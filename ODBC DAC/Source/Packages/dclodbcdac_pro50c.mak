@@ -46,7 +46,7 @@ PFLAGS = -N2..\..\Lib -N0..\..\Lib -$Y- -$L- -$D- -v -JPHNE -LUdcldb50 -M
 RFLAGS = 
 AFLAGS = /mx /w2 /zd
 LFLAGS = -l"..\..\Lib\" -I..\..\Lib \
-    -D"ODBC Data Access Components  (Softvector.com)" -aa -Tpp -Gpd -x -Gn -Gl \
+    -D"ODBC Data Access Components" -aa -Tpp -Gpd -x -Gn -Gl \
     -Gi -v
 # ---------------------------------------------------------------------------
 ALLOBJ = c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)

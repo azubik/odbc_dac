@@ -45,7 +45,7 @@
     <RFLAGS value=""/>
     <AFLAGS value="/mx /w2 /zd"/>
     <LFLAGS value="-l&quot;..\..\Lib\&quot; -I..\..\Lib 
-      -D&quot;ODBC DAC Pro  (Softvector.com)&quot; -aa -Tpp -Gpr -x -Gn -Gl -Gi -v"/>
+      -D&quot;ODBC DAC Pro&quot; -aa -Tpp -Gpr -x -Gn -Gl -Gi -v"/>
   </OPTIONS>
   <LINKER>
     <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
@@ -69,11 +69,11 @@ Locale=1033
 CodePage=1252
 
 [Version Info Keys]
-CompanyName=Softvector.com
+CompanyName=
 FileDescription=ODBC Data Access Components
 FileVersion=2.1.0.98
 InternalName=ODBC DAC Pro
-LegalCopyright=Copyright (c) 2003-2009 Softvector.com
+LegalCopyright=GNU GPL v.3
 LegalTrademarks=
 OriginalFilename=ODBC DAC Pro
 ProductName=ODBC DAC Pro

@@ -57,7 +57,7 @@
 			<TASM_AdditionalSwitches> /w2 ..\..\Lib\</TASM_AdditionalSwitches>
 			<ILINK_BpiLibOutputDir>..\..\Lib</ILINK_BpiLibOutputDir>
 			<ILINK_IntermediateOutputPath>..\..\Lib</ILINK_IntermediateOutputPath>
-			<ILINK_Description>ODBC DAC (Softvector.com)</ILINK_Description>
+			<ILINK_Description>ODBC DAC</ILINK_Description>
 			<BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
 			<Multithreaded>true</Multithreaded>
 			<BCC_UserSuppliedOptions> -Vx -r- -k -Ve</BCC_UserSuppliedOptions>
@@ -95,10 +95,6 @@
 				<BuildOrder>5</BuildOrder>
 				<BuildOrder>17</BuildOrder>
 			</ResFiles>
-			<DelphiCompile Include="..\svODBC.pas">
-				<BuildOrder>8</BuildOrder>
-				<BuildOrder>18</BuildOrder>
-			</DelphiCompile>
 			<DelphiCompile Include="..\ODBCCustomDataset.pas">
 				<BuildOrder>20</BuildOrder>
 				<BuildOrder>19</BuildOrder>
@@ -223,11 +219,11 @@
 						<VersionInfo Name="CodePage">1252</VersionInfo>
 					</VersionInfo>
 					<VersionInfoKeys>
-						<VersionInfoKeys Name="CompanyName">Softvector</VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
 						<VersionInfoKeys Name="FileDescription">ODBC Data Access Components</VersionInfoKeys>
 						<VersionInfoKeys Name="FileVersion">3.0.0.27</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName">ODBC DAC</VersionInfoKeys>
-						<VersionInfoKeys Name="LegalCopyright">Copyright (c) 2003-2009 Softvector.com</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright">GNU GPL v.3</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalTrademarks"/>
 						<VersionInfoKeys Name="OriginalFilename">ODBC Data Access Components</VersionInfoKeys>
 						<VersionInfoKeys Name="ProductName">ODBC Data Access Components</VersionInfoKeys>

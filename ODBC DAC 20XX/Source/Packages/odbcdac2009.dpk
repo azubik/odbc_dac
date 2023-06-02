@@ -22,7 +22,7 @@ package odbcdac2009;
 {$WRITEABLECONST OFF}
 {$MINENUMSIZE 1}
 {$IMAGEBASE $400000}
-{$DESCRIPTION 'ODBC DAC (Softvector.com)'}
+{$DESCRIPTION 'ODBC DAC'}
 {$RUNONLY}
 {$IMPLICITBUILD OFF}
 
@@ -31,7 +31,6 @@ requires
   vcldb;
 
 contains
-  svODBC in '..\svODBC.pas',
   ODBCConnection in '..\ODBCConnection.pas',
   ODBCConsts in '..\ODBCConsts.pas',
   ODBCCustomDataset in '..\ODBCCustomDataset.pas',

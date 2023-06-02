@@ -48,7 +48,7 @@
         <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=;CFBundleName=</VerInfo_Keys>
         <DCC_BplOutput>..\..\Bin</DCC_BplOutput>
         <DCC_DcuOutput>..\..\Lib</DCC_DcuOutput>
-        <DCC_Description>ODBC DAC Pro  (Softvector.com)</DCC_Description>
+        <DCC_Description>ODBC DAC Pro</DCC_Description>
         <DesignOnlyPackage>true</DesignOnlyPackage>
         <DCC_S>false</DCC_S>
         <GenDll>true</GenDll>

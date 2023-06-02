@@ -56,7 +56,7 @@
 			<GenPackage>true</GenPackage>
 			<DCC_DependencyCheckOutputName>..\..\Bin\odbcdac_proXE2.bpl</DCC_DependencyCheckOutputName>
 			<DCC_Platform>x86</DCC_Platform>
-			<DCC_Description>ODBC DAC Pro (Softvector.com)</DCC_Description>
+			<DCC_Description>ODBC DAC Pro</DCC_Description>
 			<RuntimeOnlyPackage>true</RuntimeOnlyPackage>
 			<DCC_S>false</DCC_S>
 			<DCC_OutputNeverBuildDcps>true</DCC_OutputNeverBuildDcps>
@@ -95,7 +95,6 @@
 			</DelphiCompile>
 			<DCCReference Include="vcl.dcp"/>
 			<DCCReference Include="vcldb.dcp"/>
-			<DCCReference Include="..\svODBC.pas"/>
 			<DCCReference Include="..\ODBCConnection.pas"/>
 			<DCCReference Include="..\ODBCConsts.pas"/>
 			<DCCReference Include="..\ODBCCustomDataset.pas"/>
@@ -157,11 +156,11 @@
 						<VersionInfo Name="CodePage">1252</VersionInfo>
 					</VersionInfo>
 					<VersionInfoKeys>
-						<VersionInfoKeys Name="CompanyName">Softvector.com</VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
 						<VersionInfoKeys Name="FileDescription"/>
 						<VersionInfoKeys Name="FileVersion">3.0.0.25</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName">ODBC DAC Pro</VersionInfoKeys>
-						<VersionInfoKeys Name="LegalCopyright">Copyright (c) 2003-2012 Softvector.com</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright">GNU GPL v.3</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalTrademarks"/>
 						<VersionInfoKeys Name="OriginalFilename"/>
 						<VersionInfoKeys Name="ProductName">ODBC DAC Pro</VersionInfoKeys>

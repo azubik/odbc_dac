@@ -45,7 +45,7 @@
         <DCC_N>false</DCC_N>
         <DCC_F>false</DCC_F>
         <DCC_K>false</DCC_K>
-        <DCC_Description>ODBC DAC Pro (Softvector.com)</DCC_Description>
+        <DCC_Description>ODBC DAC Pro</DCC_Description>
         <DCC_E>false</DCC_E>
         <GenDll>true</GenDll>
         <DCC_ImageBase>00400000</DCC_ImageBase>
@@ -180,7 +180,7 @@
                     <VersionInfoKeys Name="theme"/>
                 </VersionInfoKeys>
                 <Excluded_Packages>
-                    <Excluded_Packages Name="C:\Program Files\Softvector\ODBC DAC Pro\Delphi XE6 (Win32)\Bin\odbcdac_proXE6.bpl">ODBC DAC Pro (Softvector.com)</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Program Files\Softvector\ODBC DAC Pro\Delphi XE6 (Win32)\Bin\odbcdac_proXE6.bpl">ODBC DAC Pro</Excluded_Packages>
                 </Excluded_Packages>
             </Delphi.Personality>
             <Platforms>

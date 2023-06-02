@@ -38,7 +38,7 @@
     <PFLAGS value="-N2..\..\Lib -N0..\..\Lib -$Y- -$L- -$D- -$A8 -v -JPHNE -LUdcldb -M"/>
     <RFLAGS value=""/>
     <AFLAGS value="/mx /w2 /zd"/>
-    <LFLAGS value="-l..\..\Lib -I..\..\Lib -D&quot;ODBC DAC Pro  (Softvector.com)&quot; -aa -Tpp -Gpd 
+    <LFLAGS value="-l..\..\Lib -I..\..\Lib -D&quot;ODBC DAC Pro&quot; -aa -Tpp -Gpd 
       -x -Gn -Gl -Gi -v"/>
     <OTHERFILES value=""/>
   </OPTIONS>

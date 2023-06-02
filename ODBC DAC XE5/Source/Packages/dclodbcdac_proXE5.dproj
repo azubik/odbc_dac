@@ -40,7 +40,7 @@
         <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=;CFBundleName=;CFBundleDisplayName=;UIDeviceFamily=;CFBundleIdentifier=;CFBundleVersion=;CFBundlePackageType=;CFBundleSignature=;CFBundleAllowMixedLocalizations=;UISupportedInterfaceOrientations=;CFBundleExecutable=;CFBundleResourceSpecification=;LSRequiresIPhoneOS=;CFBundleInfoDictionaryVersion=;CFBundleDevelopmentRegion=</VerInfo_Keys>
         <GenDll>true</GenDll>
         <DCC_DcpOutput>..\..\Lib</DCC_DcpOutput>
-        <DCC_Description>ODBC DAC Pro  (Softvector.com)</DCC_Description>
+        <DCC_Description>ODBC DAC Pro</DCC_Description>
         <GenPackage>true</GenPackage>
         <DCC_DcuOutput>..\..\Lib</DCC_DcuOutput>
         <VerInfo_Locale>1049</VerInfo_Locale>

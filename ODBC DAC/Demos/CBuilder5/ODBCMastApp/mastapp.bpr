@@ -62,7 +62,7 @@ Locale=1033
 CodePage=1252
 
 [Excluded Packages]
-..\..\Bin\dclodbcdac50c.bpl=ODBC Data Access Components  (Softvector Company)
+..\..\Bin\dclodbcdac50c.bpl=ODBC Data Access Components
 
 [HistoryLists\hlIncludePath]
 Count=2

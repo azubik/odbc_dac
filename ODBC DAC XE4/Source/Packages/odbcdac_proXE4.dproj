@@ -45,7 +45,7 @@
         <DCC_ImageBase>00400000</DCC_ImageBase>
         <DCC_F>false</DCC_F>
         <GenPackage>true</GenPackage>
-        <DCC_Description>ODBC DAC Pro (Softvector.com)</DCC_Description>
+        <DCC_Description>ODBC DAC Pro</DCC_Description>
         <VerInfo_Locale>1049</VerInfo_Locale>
         <DCC_N>false</DCC_N>
         <DCC_S>false</DCC_S>
@@ -91,7 +91,6 @@
         </DelphiCompile>
         <DCCReference Include="vcl.dcp"/>
         <DCCReference Include="vcldb.dcp"/>
-        <DCCReference Include="..\svODBC.pas"/>
         <DCCReference Include="..\ODBCConnection.pas"/>
         <DCCReference Include="..\ODBCConsts.pas"/>
         <DCCReference Include="..\ODBCCustomDataset.pas"/>

@@ -37,7 +37,7 @@
     <RFLAGS value=""/>
     <AFLAGS value="/mx /w2 /zd"/>
     <LFLAGS value="-l&quot;..\..\Lib\&quot; -I..\..\Lib 
-      -D&quot;ODBC Data Access Components  (Softvector.com)&quot; -aa -Tpp -Gpd -x -Gn -Gl 
+      -D&quot;ODBC Data Access Components&quot; -aa -Tpp -Gpd -x -Gn -Gl 
       -Gi -v"/>
   </OPTIONS>
   <LINKER>
@@ -62,11 +62,11 @@ Locale=1033
 CodePage=1252
 
 [Version Info Keys]
-CompanyName=Softvector.com
+CompanyName=
 FileDescription=ODBC DAC Pro
 FileVersion=2.1.0.98
 InternalName=ODBC DAC Pro
-LegalCopyright=Copyright (c) 2003-2009 Softvector.com
+LegalCopyright=GNU GPL v.3
 LegalTrademarks=
 OriginalFilename=
 ProductName=ODBC DAC Pro
