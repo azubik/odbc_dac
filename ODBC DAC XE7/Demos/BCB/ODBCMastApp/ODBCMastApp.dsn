@@ -1,0 +1,4 @@
+[ODBC]
+DRIVER=Easysoft IB6 ODBC
+UID=SYSDBA
+DB=C:\Program Files\Common Files\Borland Shared\Data\mastsql.gdb
