@@ -6,7 +6,7 @@ ODBC DAC (ODBC Data Access Components) for Object Pascal (Delphi)
 
 Supported versions: 
 
-ODBC DAC - D5,D6,D7,D9, C5,C6;
+ODBC DAC - Delphi5,Delphi6,Delphi7,Delphi9, BCB5,BCB6;
 
 ODBC DAC XE2 - Delphi XE2; 
 ODBC DAC XE3 - Delphi XE3; 
